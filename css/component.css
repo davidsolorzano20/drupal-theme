@@ -59,8 +59,8 @@ html, body { height: 100%; }
 }
 
 .pt-page h1 span {
-	font-family: 'Satisfy', serif;
-	font-weight: 400;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-weight: 100;
 	font-size: 40%;
 	text-transform: none;
 	word-spacing: 0;
@@ -80,7 +80,7 @@ html, body { height: 100%; }
 }
 
 .pt-page-2 {
-	background: #7bb7fa;
+	background: white;
 }
 
 .pt-page-3 {
