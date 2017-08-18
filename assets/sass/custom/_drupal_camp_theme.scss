@@ -1,0 +1,93 @@
+html,body {
+	font-weight: 200;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	color: #9e9e9e;
+}
+#drupal_mini_title {
+	font-size: 50px;
+	color: white;
+	top: 20%;
+	text-shadow: 1px 1px 1px rgba(38, 50, 56, 0.87);
+	font-weight: 300;
+}
+#drupal_mini_drupal {
+	color: white;
+	margin-top: 28%;
+	text-shadow: 1px 1px 1px rgba(38, 50, 56, 0.87);
+	margin-left: -20%;
+	font-weight: 300;
+}
+#drupal_mini_theme {
+	color: white;
+	margin-top: 28%;
+	text-shadow: 1px 1px 1px rgba(38, 50, 56, 0.87);
+	margin-left: 20%;
+	font-weight: 300;
+}
+#drupal_expositor {
+	color: #9e9e9e;
+	font-size: 80px;
+	font-weight: 200;
+	opacity: inherit;
+}
+#drupal_presentador {
+	margin-top: 15%;
+	img {
+		width: 15%;
+		margin-top: 3%;
+	}
+}
+#drupal_mejoras {
+	font-size: 60px;
+	p {
+		margin-top: -20px;
+		border-bottom: 2px solid #607D8B;
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+.drupal_container {
+	margin-top: 12%;
+	padding-left: 20%;
+	padding-right: 20%;
+	.drupal_logo {
+		position: absolute;
+		z-index: -9999;
+		margin: 10% auto;
+		margin-left: 28%;
+	}
+	.drupal_menu_list {
+		li {
+			list-style: none;
+			a, i {
+				color: darkslategray;
+				font-size: 40px;
+				display: inline-flex;
+				padding-right: 20px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

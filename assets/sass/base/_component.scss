@@ -84,7 +84,9 @@ html, body { height: 100%; }
 }
 
 .pt-page-3 {
-	background: #60d7a9;
+	background: url(../images/cover.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .pt-page-4 {

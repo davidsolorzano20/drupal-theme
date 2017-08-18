@@ -1,69 +1,90 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Drupal MiniCamp - Theme</title>
-		<meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<link rel="stylesheet" type="text/css" href="css/animations.css" />
-		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i" rel="stylesheet">
-		<script src="js/modernizr.custom.js"></script>
-	</head>
-	<body>
-		<div class="pt-triggers" style="display: none;">
-			<button id="iterateEffects" class="pt-touch-button">Show next page transition</button>
-		</div>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Drupal MiniCamp - Theme</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+<!--<div class="pt-triggers">
+	<button id="iterateEffects" class="pt-touch-button">Show next page transition</button>
+</div>-->
 
-		<div id="pt-main" class="pt-perspective">
-			<div class="pt-page pt-page-1">
-				<h1 style="    font-size: 50px;color: white;top: 20%;text-shadow: 1px 1px 1px rgba(38, 50, 56, 0.87);font-weight: 300;">Drupal MiniCamp</h1>
+<div id="pt-main" class="pt-perspective">
+	<div class="pt-page pt-page-1">
+		<h1 id="drupal_mini_title">Drupal MiniCamp</h1>
 
-				<h1 style="color: white;top: 60%;text-shadow: 1px 1px 1px rgba(38, 50, 56, 0.87);margin-left: -20%;font-weight: 300;">
-					Drupal
-				</h1>
-				<h1 style="color: white;top: 60%;text-shadow: 1px 1px 1px rgba(38, 50, 56, 0.87);margin-left: 20%;font-weight: 300;">
-					Theme
-				</h1>
-			</div>
+		<h1 id="drupal_mini_drupal">
+			Drupal
+		</h1>
+		<h1 id="drupal_mini_theme">
+			Theme
+		</h1>
+	</div>
 
-			<div class="pt-page pt-page-2">
-				<h1>
-					<span>EXPOSITOR</span>
-					<span style="color: #9e9e9e;font-size: 80px;font-weight: 200; opacity: inherit;">
+	<div class="pt-page pt-page-2">
+		<h1>
+			<span>EXPOSITOR</span>
+			<span id="drupal_expositor">
 						David Paredes
 					</span>
-				</h1>
+		</h1>
 
-				<h1 style="margin-top: 15%;">
-					<span>PRESENTADO POR</span>
-					<img src="images/screenshot.png" style="width: 15%;margin-top: 3%;">
-				</h1>
-			</div>
+		<h1 id="drupal_presentador">
+			<span>PRESENTADO POR</span>
+			<img src="images/screenshot.png">
+		</h1>
+	</div>
 
 
-
-			<div class="pt-page pt-page-3"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
-			<div class="pt-page pt-page-4"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
-			<div class="pt-page pt-page-5"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
-			<div class="pt-page pt-page-6"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
+	<div class="pt-page pt-page-3 pt-page-current">
+		<h1 id="drupal_mejoras"><p>Mejoras de Drupal 8 - Fron-End</p></h1>
+		<div class="drupal_container">
+			<img src="images/drupal-logo.svg" class="drupal_logo">
+			<ul class="drupal_menu_list">
+				<li><a><i class="material-icons">check</i>Quick Edit</a></li>
+				<li><a><i class="material-icons">check</i>Responsive Toolbar</a></li>
+				<li><a><i class="material-icons">check</i>Responsive Front-End Theme</a></li>
+				<li><a><i class="material-icons">check</i>Responsive Admin Theme</a></li>
+				<li><a><i class="material-icons">check</i>Responsive Images</a></li>
+				<li><a><i class="material-icons">check</i>Responsive Tables</a></li>
+				<li><a><i class="material-icons">check</i>Simplified Overlay</a></li>
+			</ul>
 		</div>
+	</div>
 
-		<div class="pt-message">
-			<p>Your browser does not support CSS animations.</p>
-		</div>
+	<div class="pt-page pt-page-4"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
+	<div class="pt-page pt-page-5"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
+	<div class="pt-page pt-page-6"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
+</div>
 
-		<script src="js/jquery-2.1.1.js"></script>
-		<script src="js/jquery.dlmenu.js"></script>
-		<script src="js/pagetransitions.js"></script>
-	<script>
-		(function ($) {
-			$(this).on('keyup', function(){
-				$("#iterateEffects").click();
-			});
-		})(jQuery);
-	</script>
-	</body>
+<div class="pt-message">
+	<p>Your browser does not support CSS animations.</p>
+</div>
+
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.dlmenu.js"></script>
+<script src="js/pagetransitions.js"></script>
+<script>
+	(function ($) {
+
+		/*var notification = 0, message = 0; friend = 0;
+		 setInterval(function () {
+		 valor = document.getElementsByClassName('_59tg')[3];
+		 if (valor.innerHTML > notification) {
+		 notification = valor.innerHTML;
+		 window.android.NotificationFacebook(notification);
+		 return true;
+		 }
+		 }, 10000);*/
+
+		/*$(this).on('keyup', function(){
+		 $("#iterateEffects").click();
+		 });*/
+	})(jQuery);
+</script>
+</body>
 </html>

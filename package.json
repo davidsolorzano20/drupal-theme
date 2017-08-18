@@ -1,0 +1,23 @@
+{
+	"name": "mtech_custom_theme",
+	"version": "1.0.0",
+	"description": "Theme for Mtech Custom",
+	"main": "gulpfile.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Nicaraguan",
+	"license": "ISC",
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-notify": "^2.2.0",
+		"gulp-sass": "^2.3.2"
+	},
+	"dependencies": {
+		"gulp-concat": "^2.6.0",
+		"gulp-concat-css": "^2.3.0",
+		"gulp-uglify": "^2.0.0",
+		"install": "^0.8.1",
+		"npm": "^3.10.8"
+	}
+}
