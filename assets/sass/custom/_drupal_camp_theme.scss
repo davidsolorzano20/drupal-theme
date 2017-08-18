@@ -37,7 +37,9 @@ html,body {
 		margin-top: 3%;
 	}
 }
-#drupal_mejoras , #drupal_estructura, #drupal_theme_install,#drupal_theme_structure {
+#drupal_mejoras , #drupal_estructura, #drupal_theme_install,
+#drupal_theme_structure, #drupal_theme_structure2,
+#drupal_theme_regiones, #drupal_theme_regiones2 {
 	font-size: 60px;
 	p {
 		margin-top: -20px;
@@ -92,6 +94,14 @@ ul.theme_structure {
 				color: #FF9800;
 			}
 		}
+	}
+}
+
+.img-structure {
+	margin-top: 15%;
+	img {
+		margin: 0 auto;
+		height: 500px;
 	}
 }
 

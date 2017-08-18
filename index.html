@@ -9,6 +9,11 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link rel="icon" href="images/logo.png">
 	<script src="js/modernizr.custom.js"></script>
+	<style>
+		body {
+			zoom: 80%;
+		}
+	</style>
 </head>
 <body>
 <div class="pt-triggers" style="display: none">
@@ -16,16 +21,7 @@
 </div>
 
 <div id="pt-main" class="pt-perspective">
-	<div class="pt-page pt-page-1">
-		<h1 id="drupal_mini_title">Drupal MiniCamp</h1>
-
-		<h1 id="drupal_mini_drupal">
-			Drupal
-		</h1>
-		<h1 id="drupal_mini_theme">
-			Theme
-		</h1>
-	</div>
+	<div class="pt-page pt-page-1"></div>
 	<div class="pt-page pt-page-2">
 		<h1>
 			<span>EXPOSITOR</span>
@@ -67,10 +63,9 @@
 			</ul>
 		</div>
 	</div>
-
-	<div class="pt-page pt-page-3 pt-page-current">
-		<h1 id="drupal_theme_structure"><p>Drupal 8 - Estructura del Tema</p></h1>
-		<div class="drupal_container" style="margin-top: 8%;">
+	<div class="pt-page pt-page-3">
+		<h1 id="drupal_theme_structure"><p>Drupal 8 - Estructura</p></h1>
+		<div class="drupal_container">
 			<img src="images/drupal-logo.svg" class="drupal_logo">
 			<code>
 				<ul class="theme_structure">
@@ -136,28 +131,54 @@
 			</code>
 		</div>
 	</div>
-
 	<div class="pt-page pt-page-3">
-		<h1 id="drupal_theme_install"><p>Drupal 8 - Theme Structure</p></h1>
+		<h1 id="drupal_theme_regiones"><p>Drupal 8 - Regiones</p></h1>
+		<div class="col-md-12 img-structure">
+			<img src="images/image.png" class="img-responsive">
+		</div>
+	</div>
+	<div class="pt-page pt-page-3">
+		<h1 id="drupal_theme_regiones2"><p>Drupal 8 - Crear un Tema</p></h1>
 		<div class="drupal_container">
 			<img src="images/drupal-logo.svg" class="drupal_logo">
-			<h2>Requisitos</h2>
 			<ul class="drupal_menu_list">
+				<li><a><i class="material-icons">check</i>Crearlo por consola <code>drupal generate:theme</code></a></li>
+				<li><a><i class="material-icons">check</i>Crear una carpeta custom dentro de /themes</a></li>
+				<li><a><i class="material-icons">check</i>Dentro de custom crear una carpeta MY_THEME</a></li>
 				<li><a><i class="material-icons">check</i>Crear un archivo MY_THEME.info.yml</a></li>
-				<li><a><i class="material-icons">check</i>Responsive Toolbar</a></li>
-				<li><a><i class="material-icons">check</i>Responsive Front-End Theme</a></li>
-				<li><a><i class="material-icons">check</i>Responsive Admin Theme</a></li>
-				<li><a><i class="material-icons">check</i>Responsive Images</a></li>
-				<li><a><i class="material-icons">check</i>Responsive Tables</a></li>
-				<li><a><i class="material-icons">check</i>Simplified Overlay</a></li>
-				<li><a><i class="material-icons">check</i>Plantillas Twig</a></li>
+				<li><a><i class="material-icons">check</i>Logo</a></li>
+				<li><a><i class="material-icons">check</i>Screenshot</a></li>
+			</ul>
+			<code style="font-size: 18px;">
+				<h3>MY_THEME.info.yml</h3><br>
+				name: Drupal Mini Camp<br>
+				type: theme<br>
+				description: Drupal Mini Camp Theme Presentation<br>
+				package: Other<br>
+				core: 8.x<br>
+				base theme: false<br>
+			</code>
+		</div>
+	</div>
+
+	<div class="pt-page pt-page-3">
+		<h1 id="drupal_theme_regiones2"><p>Drupal 8 - Instalaci&oacute;n</p></h1>
+		<div class="drupal_container">
+			<img src="images/drupal-logo.svg" class="drupal_logo">
+			<ul class="drupal_menu_list">
+				<li><a><i class="material-icons">check</i>No dirigimos a la siguiente ruta<code>/admin/appearance</code></a></li>
+				<li>
+					<a><i class="material-icons">check</i>Instalar un nuevo <code>Theme</code></a>
+					<ul style="margin-left: 40px">
+						<li><a style="font-size: 20px;">Instalar desde una URL <code>https://ftp.drupal.org/files/projects/bootstrap-8.x-3.5.tar.gz</code></a></li>
+						<li><a style="font-size: 20px;">Cargar un archivo <code>name.tar.gz</code></a></li>
+					</ul>
+				</li>
+
 			</ul>
 		</div>
 	</div>
 
-
-	<div class="pt-page pt-page-5"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
-	<div class="pt-page pt-page-6"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
 </div>
 
 <div class="pt-message">
