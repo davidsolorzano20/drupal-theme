@@ -37,7 +37,7 @@ html,body {
 		margin-top: 3%;
 	}
 }
-#drupal_mejoras {
+#drupal_mejoras , #drupal_estructura, #drupal_theme_install,#drupal_theme_structure {
 	font-size: 60px;
 	p {
 		margin-top: -20px;
@@ -60,10 +60,36 @@ html,body {
 		li {
 			list-style: none;
 			a, i {
-				color: darkslategray;
-				font-size: 40px;
-				display: inline-flex;
+				color: #607D8B;
+				font-size: 30px;
 				padding-right: 20px;
+				font-weight: 300;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+#themes {
+	font-size: 30px;
+	margin-top: 6%;
+	margin-left: 26%;
+	text-align: left;
+}
+ul.theme_structure {
+	li {
+		list-style: none;
+		a {
+			color: #C2185B;;
+			text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+			display: flex;
+			font-weight: bold;
+			&:hover {
+				text-decoration: none;
+			}
+			i {
+				color: #FF9800;
 			}
 		}
 	}
