@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://pakmanlh.github.io/DdayBilbao2014/#/2/18 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Theme en Drupal 8</title>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="./Theme en Drupal 8_files/reveal.css">
+		<link rel="stylesheet" href="./Theme en Drupal 8_files/ymbra.css" id="theme">
+		<link rel="stylesheet" href="./Theme en Drupal 8_files/font-awesome.min.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="./Theme en Drupal 8_files/zenburn.css">
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body style="transition: -webkit-transform 0.8s ease;">
+
+		<div class="reveal default center" data-transition-speed="default" data-background-transition="default">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides" style="width: 960px; height: 700px; zoom: 0.777857;">
+				<section class="past" style="top: -272.5px; display: block;" hidden="">
+					<h1>Theme en Drupal 8</h1>
+					<h3>Pako Garcia</h3>
+					<p>
+						<small><a href="http://ymbra.com/">Vegan Themer at <img src="./Theme en Drupal 8_files/logo-ymbra.png" class="logo-ymbra"></a><br><a href="http://twitter.com/pakmanlh"> @pakmanlh</a> in the internets</small>
+					</p>
+					<p><i class="fa fa-twitter fa-2x"></i>  #DdayBilbao2014</p>
+				</section>
+
+				<section class="stack past" style="top: 0px; display: block;" data-previous-indexv="6" hidden="">
+					<section style="top: -264px; display: none;" class="past" hidden="">
+						<h2>¿De dónde venimos?</h2>
+						<h3>¿Cómo era la web en 2011?</h3>
+				      <ul>
+				        <li>jQuery</li>
+				        <li>78% web in XHTML</li>
+				        <li>PHP 5.4.0 RC4 Released</li>
+				        <li>Wordpress</li>
+				        <li>Google AdSense</li>
+				      </ul>
+				      <p><a href="http://w3techs.com/blog/entry/top_10_rising_web_technologies_in_2011">fuente</a></p>
+					</section>
+					<section class="past" style="top: -349.5px; display: none;" hidden="">
+						<h2>¿Cómo cambió Drupal?</h2>
+						<h3>Drupal 7 fue lanzado el 5 de enero del 2011</h3>
+						<ul>
+						  <li>Mejora sustancial en la UI de administración (Seven)</li>
+						  <li>Contenido flexible y campos configurables</li>
+						  <li>Mejora visual y capa de theming con <stron> Render API</stron></li>
+						  <li>Accesibilidad mejorada en gran medida</li>
+						  <li>Soporte de imágenes incluido</li>
+						  <li>Automated code testing</li>
+						  <li>Mejora de soporte de base de datos</li>
+						  <li>Mejora de soporte a distribuciones</li>
+						  <li>Soporte para Semantic Web a través de RDFa markup</li>
+						</ul>
+					  <p><a href="http://www.knaddison.com/drupal/contributors-drupal-7-final-numbers">10,091 mentions</a></p>
+					</section>
+					<section class="past" style="top: -237.5px; display: none;" hidden="">
+						<h2>¿Hacia dónde vamos?</h2>
+						<h3>La web hoy día:</h3>
+						<ul>
+			        <li>HTML5</li>
+			        <li>SASS</li>
+			        <li>Mobile first</li>
+			        <li>OOP (Symfony)</li>
+			        <li>JavaScript (AngularJS, Backbone, CasperJS, etc)</li>
+			      </ul>
+					</section>
+					<section class="past" style="top: -300.5px; display: none;" hidden="">
+						<h2>¿Cómo será Drupal 8?</h2>
+						<h3>Drupal 8 released in ... <strong> ¿ September 2015 ?</strong></h3>
+						<ul>
+		          <li>WYSIWYG</li>
+		          <li>In-Place Editing</li>
+		          <li>Responsive Toolbar</li>
+		          <li>Responsive Front-End Theme</li>
+		          <li>Responsive Admin Theme</li>
+		          <li>Responsive Images</li>
+		          <li>Responsive Tables</li>
+		          <li>Simplified Overlay</li>
+		        </ul>
+					</section>
+
+					<section class="past" style="top: -300.5px; display: block;" hidden="">
+						<h2>¿Cómo será Drupal 8?</h2>
+						<h3>Y además...</h3>
+						<ul>
+							<li>Multilingual</li>
+							<li>Better Blocks</li>
+							<li>Configuration Management</li>
+							<li>Web Services</li>
+		          <li>Symfony 2</li>
+		          <li>Twig</li>
+		          <li>Views</li>
+		        </ul>
+					</section>
+
+					<section class="past" style="top: -258px; display: block;" hidden="">
+						<h2>¿Cómo será Drupal 8?</h2>
+						<h3>Y SOBRETODO</h3>
+						<ul>
+							<li class="fragment visible" data-fragment-index="0">No soportará IE6</li>
+							<li class="fragment visible" data-fragment-index="1">No soportará IE7</li>
+							<li class="fragment visible" data-fragment-index="2">No soportará IE8</li>
+		        </ul>
+					</section>
+
+					<section data-background="images/applause.gif" data-background-transition="slide" class="" style="top: -40px; display: block;">
+					<!-- <h2>HURRA!</h2> -->
+					</section>
+
+				</section>
+
+				<section class="stack present" style="top: 0px; display: block;" data-previous-indexv="17">
+					<section style="top: -131px; display: none;" class="past" hidden="">
+						<h1>Problemas a resolver</h1>
+					</section>
+
+					  <section class="past" style="top: -344px; display: none;" hidden="">
+					    <h1>Divitis</h1>
+					    <h3>Marcado enriquecido <sup>tm</sup></h3>
+					    <pre><code data-trim="" contenteditable="" class="axapta">&lt;<span class="keyword">div</span> <span class="class"><span class="keyword">class</span>="<span class="title">foo</span> <span class="title">bar</span> <span class="title">baz</span> <span class="title">whatever</span>"&gt;
+					  &lt;<span class="title">div</span> <span class="title">class</span>="<span class="title">foo</span> <span class="title">bar</span> <span class="title">baz</span> <span class="title">whatever</span>"&gt;
+					    &lt;<span class="title">div</span> <span class="title">class</span>="<span class="title">foo</span> <span class="title">bar</span> <span class="title">baz</span> <span class="title">whatever</span>"&gt;
+
+					      &lt;<span class="title">h1</span> <span class="title">class</span>="<span class="title">pane</span>-<span class="title">title</span>"&gt;<span class="title">hello</span> <span class="title">im</span> <span class="title">drupal</span>&lt;/<span class="title">h1</span>&gt;
+
+					      &lt;<span class="title">div</span> <span class="title">class</span>="<span class="title">node</span> <span class="title">node</span>-<span class="title">type</span> <span class="title">node</span>-<span class="title">viewmode</span>-<span class="title">argh</span>"&gt;
+					        <span class="title">always</span> <span class="title">add</span> <span class="title">another</span> <span class="title">div</span>
+					      &lt;/<span class="title">div</span>&gt;
+
+					    &lt;/<span class="title">div</span>&gt;
+					  &lt;/<span class="title">div</span>&gt;
+					&lt;/<span class="title">div</span>&gt;</span></code></pre>
+					  </section>
+
+					  <section class="past" style="top: -131px; display: none;" hidden="">
+					    <h1>sobrecarga css</h1>
+					  </section>
+
+					  <section id="csslove" class="past" style="top: -281.5px; display: none;" hidden="">
+					    <small>27 archivos css en drupal 7 stark</small>
+					    <pre><code data-trim="" contenteditable="" class="max xml"><span class="tag"><span class="tag">&lt;<span class="title"><span class="title">style</span></span> <span class="attribute"><span class="attribute">media</span></span>=<span class="value"><span class="value">"all"</span></span>&gt;</span></span><span class="css"><span class="css">
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/system/system.base.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/system/system.menus.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/system/system.messages.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/system/system.theme.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;</span></span><span class="tag"><span class="tag">&lt;/<span class="title"><span class="title">style</span></span>&gt;</span></span>
+<span class="tag"><span class="tag">&lt;<span class="title"><span class="title">style</span></span> <span class="attribute"><span class="attribute">media</span></span>=<span class="value"><span class="value">"all"</span></span>&gt;</span></span><span class="css"><span class="css">
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/contextual/contextual.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+</span></span><span class="tag"><span class="tag">&lt;/<span class="title"><span class="title">style</span></span>&gt;</span></span>
+<span class="tag"><span class="tag">&lt;<span class="title"><span class="title">style</span></span> <span class="attribute"><span class="attribute">media</span></span>=<span class="value"><span class="value">"all"</span></span>&gt;</span></span><span class="css"><span class="css">
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/aggregator/aggregator.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/book/book.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/comment/comment.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/sites/all/modules/contrib/date/date_api/date.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/field/theme/field.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/node/node.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/sites/all/modules/contrib/picture/picture_wysiwyg.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/poll/poll.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/search/search.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/sites/all/modules/contrib/search_krumo/search_krumo.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/user/user.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/sites/all/modules/contrib/video_filter/video_filter.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/modules/forum/forum.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/sites/all/modules/contrib/views/css/views.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/sites/all/modules/contrib/admin_menu/admin_menu.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/sites/all/modules/contrib/admin_menu/admin_menu.uid1.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+</span></span><span class="tag"><span class="tag">&lt;/<span class="title"><span class="title">style</span></span>&gt;</span></span>
+<span class="tag"><span class="tag">&lt;<span class="title"><span class="title">style</span></span> <span class="attribute"><span class="attribute">media</span></span>=<span class="value"><span class="value">"all"</span></span>&gt;</span></span><span class="css"><span class="css">
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/sites/all/modules/contrib/ctools/css/ctools.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/sites/all/modules/contrib/panels/css/panels.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/sites/all/modules/contrib/panels/plugins/layouts/twocol_stacked/twocol_stacked.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/sites/all/themes/mothership/mothership/templates/panels//mothership-html5page/mothership-html5page.admin.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+</span></span><span class="tag"><span class="tag">&lt;/<span class="title"><span class="title">style</span></span>&gt;</span></span>
+<span class="tag"><span class="tag">&lt;<span class="title"><span class="title">style</span></span> <span class="attribute"><span class="attribute">media</span></span>=<span class="value"><span class="value">"all"</span></span>&gt;</span></span><span class="css"><span class="css">
+  <span class="at_rule"><span class="at_rule">@<span class="keyword"><span class="keyword">import</span></span> <span class="function"><span class="function">url(<span class="string"><span class="string">"sites/themes/stark/layout.css?mz4mz0"</span></span>)</span></span></span><span class="function"></span></span>;
+</span></span><span class="tag"><span class="tag">&lt;/<span class="title"><span class="title">style</span></span>&gt;</span></span></code></pre>
+
+					  </section>
+
+					  <section class="past" style="top: -255.5px; display: none;" hidden="">
+					    <h1>sobrecarga css</h1>
+					    <h3>5 classes para cada uno de los campos</h3>
+
+					    <pre><code class="axapta">
+					&lt;<span class="keyword">div</span> <span class="class"><span class="keyword">class</span>="<span class="title">field</span> <span class="title">field</span>-<span class="title">something</span> <span class="title">field</span>-<span class="title">even_more</span> <span class="title">another</span>-<span class="title">field</span>-<span class="title">cause</span>-<span class="title">im</span>-<span class="title">drupal</span>"&gt;
+					    <span class="title">wait</span> <span class="title">im</span> <span class="title">just</span> <span class="title">a</span> <span class="title">piece</span> <span class="title">of</span> <span class="title">data</span>
+					&lt;/<span class="title">div</span>&gt;
+
+					    </span></code></pre>
+
+					  </section>
+
+					  <section class="past" style="top: -202.5px; display: none;" hidden="">
+					    <h2>Solución Frontend</h2>
+					    <ul>
+					      <li>Empezar desde nada</li>
+					      <li>No solucionar TODOS los problemas</li>
+					      <li>Proveer herramientas</li>
+					      <li>Visibilidad</li>
+					      <li>Consistencia</li>
+					    </ul>
+					  </section>
+
+				    <section class="past" style="top: -344px; display: none;" hidden="">
+				      <h1>HTML5</h1>
+				      <pre><code class="xml">
+				        <span class="tag">&lt;<span class="title">header</span> <span class="attribute">role</span>=<span class="value">"banner"</span>&gt;</span>
+				          <span class="tag">&lt;<span class="title">nav</span>&gt;</span>
+				            <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"/"</span>&gt;</span>home<span class="tag">&lt;/<span class="title">a</span>&gt;</span> | <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"/info"</span>&gt;</span>info<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+				          <span class="tag">&lt;/<span class="title">nav</span>&gt;</span>
+				        <span class="tag">&lt;/<span class="title">header</span>&gt;</span>
+				        <span class="tag">&lt;<span class="title">main</span>&gt;</span>
+
+				          
+				          <span class="tag">&lt;<span class="title">div</span>&gt;</span>
+				            ...
+				          <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+				        <span class="tag">&lt;/<span class="title">main</span>&gt;</span>
+				        <span class="tag">&lt;<span class="title">footer</span> <span class="attribute">role</span>=<span class="value">""</span>&gt;</span>
+				        <span class="tag">&lt;/<span class="title">footer</span>&gt;</span>
+
+				      </code></pre>
+				    </section>
+
+				    <section class="past" style="top: -121.5px; display: none;" hidden="">
+
+				      <h2>
+				        &lt;div id="mala-práctica"&gt;...&lt;/div&gt;
+				      </h2>
+				      <p>75% menos de ID's *</p>
+				    </section>
+
+				    <section class="past" style="top: -326.5px; display: none;" hidden="">
+				      <h1>Drupal CSS </h1>
+
+				      <h3>Drupal 7</h3>
+				      <pre><code class="actionscript">
+				        &lt;body <span class="class"><span class="keyword">class</span>="<span class="title">html</span> <span class="title">one</span>-<span class="title">sidebar</span> <span class="title">sidebar</span>-<span class="title">first</span> <span class="title">not</span>-<span class="title">front</span> <span class="title">logged</span>-<span class="title">in</span>
+				        <span class="title">page</span>-<span class="title">node</span> <span class="title">page</span>-<span class="title">node</span>- <span class="title">page</span>-<span class="title">node</span>-4 <span class="title">node</span>-<span class="title">type</span>-<span class="title">fieldtest</span> "&gt;
+				      </span></code></pre>
+				      <h3>Drupal8</h3>
+				      <pre><code class="coffeescript">
+				        &lt;body <span class="class"><span class="keyword">class</span>="  <span class="title">how</span>-<span class="title">about</span>-<span class="title">we_figure_that</span>-<span class="title">out</span> "&gt;</span>
+				      </code></pre>
+				    </section>
+
+				    <section class="past" style="top: -338.5px; display: none;" hidden="">
+				      <h1>Estructura CSS </h1>
+				      <h2>Basado en SMACSS &amp; BEM</h2>
+				      <a href="https://drupal.org/node/1887918">CSS architecture (1887918)</a>
+				      <pre><code class="avrasm">
+				      // <span class="preprocessor">.block</span>__element--modifier
+				      <span class="preprocessor">.notification</span> {
+				          <span class="comment">/* general styles for all notifications */</span>
+				        }
+				        <span class="preprocessor">.notification</span>--info {
+				          <span class="comment">/* blue color adjustments */</span>
+				        }
+				      </code></pre>
+
+				    </section>
+
+				    <section class="past" style="top: -303px; display: none;" hidden="">
+				      <h1>Archivos css </h1>
+				      <img src="./Theme en Drupal 8_files/cssfilename.jpg">
+				    </section>
+
+
+
+				    <section class="past" style="top: -173.5px; display: none;" hidden="">
+				      <h1>B.A.T. Namescheme</h1>
+				      <ul>
+				      	<li><a href="https://drupal.org/node/1887922">CSS file organization (nid: 1887922)</a></li>
+				      	<li><a href="https://www.drupal.org/node/1536682">BAT Cleanup &amp; CSS Files Removal</a></li>
+				      </ul>
+
+
+				    </section>
+
+				    <section id="filestructure" class="past" style="top: -350px; display: none;" hidden="">
+				      <h2>D8 Estructura de archivos</h2>
+				      <img src="./Theme en Drupal 8_files/filestructure.png">
+				      <br>
+				      <small> Drupal 8 core</small>
+				    </section>
+
+				    <section class="past" style="top: -210.5px; display: none;" hidden="">
+				      <h1>/themes</h1>
+				      <p>proveer visibilidad</p>
+				      <p>themes ahora viven en "/themes"</p>
+				      <p>o "sites/ *** /themes" </p>
+				    </section>
+
+				    <section class="past" style="top: -331px; display: none;" hidden="">
+				      <h2>D8 Estructura de archivos en módulos</h2>
+				      <img src="./Theme en Drupal 8_files/filestructure-modules.png">
+				        <p>modulename/templates/*.html.twig</p>
+				    </section>
+
+				    <section class="past" style="top: -137.5px; display: block;" hidden="">
+				      <h1 class="large"> <i class="fa fa-bolt"></i> DEBUG!</h1>
+				    </section>
+
+				    <section class="past" style="top: -299.5px; display: block;" hidden="">
+				      <h2>¿Dónde está la plantilla?</h2>
+				      <img src="./Theme en Drupal 8_files/debug-pre.jpg">
+				    </section>
+
+				    <section class="past" style="top: -206.5px; display: block;" hidden="">
+				      <h1>    <i class="fa fa-bolt"></i> DEBUG!</h1>
+				      <pre><code class="php">
+				        <span class="variable">$settings</span>[<span class="string">'twig_debug'</span>] = <span class="keyword">TRUE</span>;
+				      </code></pre>
+				      <small> settings.php</small>
+				    </section>
+
+				    <section class="present" style="top: -316.5px; display: block;">
+				      <h2>$settings['twig_debug'] = TRUE;</h2>
+				      <img src="./Theme en Drupal 8_files/debug-post.jpg">
+				    </section>
+
+				    <section data-background="#000" class="future" style="top: -278.5px; display: block;" hidden="">
+				      <h1 class="large">R I P</h1>
+				      <h1>Theme functions</h1>
+				      <h2>Render arrays FTW!</h2>
+
+				    </section>
+
+				    <section class="future" style="top: -157.5px; display: block;" hidden="">
+				      <h1>Compilación</h1>
+				      <p>
+				        Las plantillas twig son interpretables (Back y Front)
+				      </p>
+				    </section>
+
+				    <section class="future" style="top: -157.5px; display: block;" hidden="">
+				      <h1>.scss -&gt; .css</h1>
+				      <p>(no todavía pero con previsión)</p>
+				    </section>
+
+				    <section class="future" style="top: -20px; display: none;" hidden="">
+				      <h1>¿ SQL en la capa de theme ?</h1>
+				    </section>
+
+				    <section class="future" style="top: -20px; display: none;" hidden="">
+				      <h1>¿Quien quiere eso?</h1>
+				      <h2 class="fragment" data-fragment-index="0">Malos desarrolladores</h2>
+				      <h2 class="fragment" data-fragment-index="1">Themes son solamente marcado y css!</h2>
+				    </section>
+
+				    <section class="future" style="top: -20px; display: none;" hidden="">
+				      <h3>Branding y logo</h3>
+				      <p>ahora es un bloque exportable</p>
+				      <img src="./Theme en Drupal 8_files/block-sitebranding.png">
+				    </section>
+
+				</section>
+
+				<!-- D7 vs D8 -->
+				<section id="twigbasic" class="stack future" style="top: 0px; display: block;" data-previous-indexv="0" hidden="">
+				  <section style="top: -157.5px; display: block;" class="">
+				    <h1>Twig Básico</h1>
+
+				    <p>facilísimo</p>
+				  </section>
+				  <!-- php -->
+				  <section class="future" style="top: -297.5px; display: block;" hidden="">
+				    <h2> Comentarios y variables </h2>
+				    <pre><code class="php">
+				    <span class="comment">/*
+				    comment
+				    */</span>
+				      <span class="preprocessor">&lt;?php</span> <span class="keyword">print</span> <span class="variable">$foo</span> ; <span class="preprocessor">?&gt;</span>
+				    </code></pre>
+				      <small>phptemplate</small>
+
+
+				    <pre><code class="django">
+				      <span class="template_comment">{# comment #}</span>
+
+				      <span class="variable">{{ foo }}</span>
+				    </code></pre>
+				    <small>twig</small>
+
+				  </section>
+
+				  <section class="future" style="top: -350px; display: block;" hidden="">
+				    <h2> Variables  </h2>
+				    <pre><code contenteditable="" class="php">
+				   <span class="comment">/*
+				    so php template
+				    Now where is that value again
+				   */</span>
+
+				 <span class="preprocessor">&lt;?php</span> <span class="keyword">print</span> <span class="variable">$foo</span>[<span class="string">'bar'</span>][<span class="string">'UND'</span>]-&gt;baz[<span class="string">'what'</span>]-&gt;thefuck[<span class="string">'seriously'</span>] <span class="preprocessor">?&gt;</span>
+
+				    </code></pre>
+				    <small>phptemplate</small>
+
+				    <pre><code contenteditable="" class="handlebars">
+				      {# hello twig can you find valdo ? #}
+
+				      <span class="expression">{{ <span class="variable">foo.bar.baz.done.with.this.shit</span> }}</span>
+
+				      <span class="expression">{{ <span class="variable">foo</span>['<span class="variable">bar</span>'] }}</span>
+
+				      {% functions %}
+				    </code></pre>
+				      <small>Twig</small>
+
+				  </section>
+
+				  <section class="future" style="top: -319px; display: none;" hidden="">
+				    <h1>Condicionales</h1>
+
+				    <pre><code class="php">
+				    <span class="preprocessor">&lt;?php</span> <span class="keyword">if</span>(<span class="variable">$foo</span>): <span class="preprocessor">?&gt;</span>
+				      <span class="preprocessor">&lt;?php</span> <span class="keyword">print</span> <span class="variable">$var</span>; <span class="preprocessor">?&gt;</span>
+				    <span class="preprocessor">&lt;?php</span> <span class="keyword">endif</span>; <span class="preprocessor">?&gt;</span>
+				    </code></pre>
+				    <small>phptemplate</small>
+
+				    <pre><code class="django">
+				      <span class="template_tag">{% <span class="keyword">if</span> foo %}</span>
+				        <span class="variable">{{ var }}</span>
+				      <span class="template_tag">{% <span class="keyword">endif</span> %}</span>
+				    </code></pre>
+				    <small> twig</small>
+
+				  </section>
+
+				  <!-- for -->
+				  <section class="future" style="top: -20px; display: none;" hidden="">
+				    <h2>Bucles</h2>
+				    <pre><code contenteditable="" class="django">
+				      <span class="tag">&lt;<span class="title">h2</span>&gt;</span>Team Awesome <span class="tag">&lt;/<span class="title">h2</span>&gt;</span>
+				      <span class="tag">&lt;<span class="title">ul</span>&gt;</span>
+				        <span class="template_tag">{% <span class="keyword">for</span> user <span class="keyword">in</span> users %}</span>
+				            <span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="variable">{{ user.username}}</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span>
+				        <span class="template_tag">{% <span class="keyword">endfor</span> %}</span>
+				      <span class="tag">&lt;/<span class="title">ul</span>&gt;</span>
+				    </code></pre>
+				      <small>twig</small>
+				    <pre><code contenteditable="" class="apache">
+				      <span class="tag">&lt;h2&gt;</span>Team Awesome <span class="tag">&lt;/h2&gt;</span>
+				      <span class="tag">&lt;ul&gt;</span>
+				        <span class="tag">&lt;li&gt;</span>cottset<span class="tag">&lt;/li&gt;</span>
+				        <span class="tag">&lt;li&gt;</span>joel<span class="tag">&lt;/li&gt;</span>
+				        <span class="tag">&lt;li&gt;</span>jen<span class="tag">&lt;/li&gt;</span>
+				        <span class="tag">&lt;li&gt;</span>mark carver<span class="tag">&lt;/li&gt;</span>
+				        <span class="tag">&lt;li&gt;</span>mortendk<span class="tag">&lt;/li&gt;</span>
+				      <span class="tag">&lt;/ul&gt;</span>
+				    </code></pre>
+				      <small>drupal8</small>
+
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;" hidden="">
+				    <h2>Acciones sobre bucles</h2>
+				    <pre><code contenteditable="" class="http">
+
+<span class="r">				    {{ loop.length }}
+
+				    {{ loop.first }}
+
+				    {{ loop.last }}
+
+				    {{ loop.index }}
+
+				    {% <span class="keyword">if</span> loop.first %}
+				      <span class="keyword">...</span>
+				    {% elseif loop.index == <span class="number">2</span> %}
+				      <span class="keyword">...</span>
+				    {% elseif loop.last %}
+				        <span class="keyword">...</span>
+				    {% endif %}
+				    </span></code></pre>
+				  </section>
+
+				  <!-- include -->
+				  <section class="future" style="top: -20px; display: none;" hidden="">
+				    <h1>Set</h1>
+				    <pre><code contenteditable="" class="django">
+				      <span class="template_tag">{% set foo %}</span>
+				        count-<span class="variable">{{ loop.index }}</span>
+				      <span class="template_tag">{% endset %}</span>
+
+				      <span class="variable">{{ foo }}</span>,
+				    </code></pre>
+				    <small>twig</small>
+
+				    <pre><code contenteditable="" class="applescript">
+				      <span class="command">count</span>-<span class="number">1</span>,<span class="command">count</span>-<span class="number">2</span>, <span class="command">count</span>-<span class="number">3</span>,
+				    </code></pre>
+				    <small> output </small>
+				  </section>
+
+				  <!-- filter -->
+				  <section class="future" style="top: -20px; display: none;" hidden="">
+				    <h1>Filtros </h1>
+				    <pre><code contenteditable="" class="django">
+				     <span class="tag">&lt;<span class="title">p</span>&gt;</span>
+				    <span class="template_tag">{% <span class="keyword">filter</span> upper %}</span>
+				        uppercase for the win
+				    <span class="template_tag">{% <span class="keyword">endfilter</span> %}</span>
+				    <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+				    </code></pre>
+
+				    <pre><code contenteditable="" class="apache">
+				      <span class="tag">&lt;p&gt;</span>
+				        UPPERCASE FOR THE WIN
+				      <span class="tag">&lt;/p&gt;</span>
+				    </code></pre>
+				  </section>
+
+
+				  <section class="future" style="top: -20px; display: none;" hidden="">
+				    <h2>|filter </h2>
+				    <pre><code class="handlebars">
+				      <span class="expression">{{ <span class="variable">foo</span>|<span class="variable">dostufftofoo</span> }}</span>
+
+				      {#  name = <span class="tag">&lt;<span class="title">a</span> <span class="attribute">hred</span>=<span class="value">"foo"</span>&gt;</span>pako<span class="tag">&lt;/<span class="title">a</span>&gt;</span> #}
+				      <span class="expression">{{ <span class="variable">name</span>|<span class="variable">striptags</span>|<span class="variable">title</span> }}</span>
+				    </code></pre>
+				    <small>twig</small>
+
+				    <pre><code class="nginx">
+				      <span class="title">Pako</span>
+				    </code></pre>
+
+				  </section>
+				  <section class="future" style="top: -20px; display: none;" hidden="">
+				  	<h2>Más sobre filtros</h2>
+				  	<p><a href="http://twig.sensiolabs.org/doc/filters/index.html">Documentación</a></p>
+				  </section>
+
+				</section>
+
+				<!-- Drupal 8 theme -->
+				<section id="drupal8theme" hidden="" class="stack future" style="top: 0px; display: block;">
+
+				  <section style="top: -131px; display: block;">
+				    <h1>Drupal8 Theme </h1>
+				  </section>
+
+				  <section class="future" style="top: -350px; display: block;">
+				    <h2>theme structure</h2>
+				      <img src="./Theme en Drupal 8_files/pagebuild.png">
+				  </section>
+
+
+
+				  <section class="future" style="top: -308px; display: none;">
+				  	<h2>drupal7.info</h2>
+				    <pre><code class="max lasso" data-trim="">name = name
+				      description = This is my epic D7 theme
+				      screenshot = screenshot.png
+				      engine = phptemplate
+				      core = <span class="number">7.</span>x
+				      php = <span class="number">5.2</span>
+
+				      regions<span class="preprocessor">[</span><span class="keyword">header</span><span class="preprocessor">]</span><span class="markup"> = Header
+				      regions</span><span class="preprocessor">[</span>logo<span class="preprocessor">]</span><span class="markup"> = Logo
+				      regions</span><span class="preprocessor">[</span>menu<span class="preprocessor">]</span><span class="markup"> = Menu
+				      regions</span><span class="preprocessor">[</span>messages<span class="preprocessor">]</span><span class="markup"> = Messages
+				      regions</span><span class="preprocessor">[</span>content<span class="preprocessor">]</span><span class="markup"> = Content
+				      regions</span><span class="preprocessor">[</span>footer<span class="preprocessor">]</span><span class="markup"> = Footer
+
+				      stylesheets</span><span class="preprocessor">[</span><span class="literal">all</span><span class="preprocessor">]</span><span class="markup"></span><span class="preprocessor">[</span><span class="preprocessor">]</span><span class="markup"> = css/style.css
+				      #FOAD fix
+				      stylesheets</span><span class="preprocessor">[</span><span class="literal">all</span><span class="preprocessor">]</span><span class="markup"></span><span class="preprocessor">[</span><span class="preprocessor">]</span><span class="markup"> = donteverloadmeagain.css</span></code></pre>
+
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				  	<h2>drupal8.info.yml</h2>
+				    <pre><code data-trim="" class="actionscript">name: drupal8themename
+				      type: theme
+				      description: This <span class="keyword">is</span> my epic D8 theme
+				      <span class="package"><span class="keyword">package</span>: <span class="title">Core</span>
+				      <span class="title">core</span>: 8.<span class="title">x</span>
+
+				      <span class="title">stylesheets</span>:
+				        <span class="title">all</span>:
+				          - <span class="title">css</span>/<span class="title">layout</span>.<span class="title">css</span>
+				        <span class="title">print</span>:
+				          - <span class="title">css</span>/<span class="title">print</span>.<span class="title">css</span>
+				        <span class="title">stylesheets</span>-<span class="title">remove</span>:
+				          - <span class="title">system</span>.<span class="title">theme</span>.<span class="title">css</span>
+				          - <span class="title">user</span>.<span class="title">icons</span>.<span class="title">css</span>
+				          - <span class="title">stuffidontwant</span>.<span class="title">css</span>
+
+				      <span class="title">regions</span>:
+				        <span class="title">header</span>: <span class="title">Header</span>
+				        <span class="title">logo</span>: <span class="title">Logo</span>
+				        <span class="title">menu</span>: <span class="title">Menu</span>
+				        <span class="title">messages</span>: <span class="title">Messages</span>
+				        <span class="title">content</span>: <span class="title">Content</span>
+				        <span class="title">footer</span>: <span class="title">Footer</span>
+
+				      # <span class="title">engine</span>: <span class="title">phptemplate</span></span></code></pre>
+
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <h2> Si sois amantes de phptemplate</h2>
+				    <pre><code class="http">
+
+<span class="1c">
+				      <span class="preprocessor"># engine: phptemplate</span>
+
+
+				    </span></code></pre>
+				    <small>themename.info</small>
+				  
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <h1>Sobreescribir</h1>
+				    <pre><code class="lasso">
+				      stylesheets<span class="preprocessor">[</span><span class="literal">all</span><span class="preprocessor">]</span><span class="markup"></span><span class="preprocessor">[</span><span class="preprocessor">]</span><span class="markup"> = css/style.css
+				      #FOAD fix
+				      ;stylesheets</span><span class="preprocessor">[</span><span class="literal">all</span><span class="preprocessor">]</span><span class="markup"></span><span class="preprocessor">[</span><span class="preprocessor">]</span><span class="markup"> = donteverloadmeagain.css
+				      stylesheets</span><span class="preprocessor">[</span><span class="literal">all</span><span class="preprocessor">]</span><span class="markup"></span><span class="preprocessor">[</span><span class="preprocessor">]</span><span class="markup"> = system.theme.css
+				      stylesheets</span><span class="preprocessor">[</span><span class="literal">all</span><span class="preprocessor">]</span><span class="markup"></span><span class="preprocessor">[</span><span class="preprocessor">]</span><span class="markup"> = user.icons.css
+				      stylesheets</span><span class="preprocessor">[</span><span class="literal">all</span><span class="preprocessor">]</span><span class="markup"></span><span class="preprocessor">[</span><span class="preprocessor">]</span><span class="markup"> = stuffidontwant.css
+				    </span></code></pre>
+				    <small>drupal 7</small>
+
+				    <pre><code class="avrasm">
+				        stylesheets-remove:
+				          - system<span class="preprocessor">.theme</span><span class="preprocessor">.css</span>
+				          - user<span class="preprocessor">.icons</span><span class="preprocessor">.css</span>
+				          - stuffidontwant<span class="preprocessor">.css</span>
+				    </code></pre>
+				    <small>drupal 8</small>
+
+				  </section>
+				  <!-- regions -->
+				  <section class="future" style="top: -20px; display: none;">
+				    <h1>Regiones en Page</h1>
+
+				    <h3>Drupal 7</h3>
+				    <pre><code data-trim="" contenteditable="" class="php"><span class="preprocessor">&lt;?php</span> <span class="keyword">if</span> (<span class="variable">$page</span>[<span class="string">'footer'</span>]): <span class="preprocessor">?&gt;</span>
+				  &lt;footer role=<span class="string">"contentinfo"</span>&gt;
+				    <span class="preprocessor">&lt;?php</span> <span class="keyword">print</span> render(<span class="variable">$page</span>[footer]);  <span class="preprocessor">?&gt;</span>
+				  &lt;/footer&gt;
+				<span class="preprocessor">&lt;?php</span> endid <span class="preprocessor">?&gt;</span></code></pre>
+				    <small>&lt;?php print render($page[region]);  ?&gt;</small>
+
+				    <h3>Drupal 8</h3>
+				    <pre><code data-trim="" contenteditable="" class="django"><span class="template_tag">{% <span class="keyword">if</span> page.footer %}</span>
+				  <span class="tag">&lt;<span class="title">footer</span> <span class="attribute">role</span>=<span class="value">"contentinfo"</span>&gt;</span>
+				    <span class="variable">{{ page.footer}}</span>
+				  <span class="tag">&lt;/<span class="title">footer</span>&gt;</span>
+				<span class="template_tag">{% <span class="keyword">endif</span> %}</span></code></pre>
+				    <small>twig: {{ page.region }} </small>
+				  </section>
+				  <!-- regions -->
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <h3>Blocks</h3>
+				    <pre><code contenteditable="" class="handlebars">
+				    <span class="tag">&lt;<span class="title">div{{</span> <span class="attribute">attributes</span> }}&gt;</span>
+				      <span class="expression">{{ <span class="variable">title</span>_<span class="variable">prefix</span> }}</span>
+				      {% if label %}
+				        <span class="tag">&lt;<span class="title">h2{{</span> <span class="attribute">title_attributes</span> }}&gt;</span><span class="expression">{{ <span class="variable">label</span> }}</span><span class="tag">&lt;/<span class="title">h2</span>&gt;</span>
+				      {% endif %}
+				      <span class="expression">{{ <span class="variable">title</span>_<span class="variable">suffix</span> }}</span>
+
+				      <span class="tag">&lt;<span class="title">div{{</span> <span class="attribute">content_attributes</span> }}&gt;</span>
+				        <span class="expression">{{ <span class="variable">content</span> }}</span>
+				      <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+				    <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+				        </code></pre>
+				        <small>block.twig</small>
+
+				        <pre><code data-trim="" contenteditable="" class="handlebars"><span class="tag">&lt;<span class="title">nav</span> <span class="attribute">class</span>=<span class="value">"<span class="expression">{{ <span class="variable">attributes.class</span> }}</span>"</span> <span class="attribute">role</span>=<span class="value">"<span class="expression">{{ <span class="variable">attributes.role</span>}}</span>"</span>&gt;</span>
+				      <span class="expression">{{ <span class="variable">title</span>_<span class="variable">prefix</span> }}</span>
+				      {% if label %}
+				        <span class="tag">&lt;<span class="title">h2{{</span> <span class="attribute">title_attributes</span> }}&gt;</span><span class="expression">{{ <span class="variable">label</span> }}</span><span class="tag">&lt;/<span class="title">h2</span>&gt;</span>
+				      {% endif %}
+				      <span class="expression">{{ <span class="variable">title</span>_<span class="variable">suffix</span> }}</span>
+				      <span class="expression">{{ <span class="variable">content</span> }}</span>
+				    <span class="tag">&lt;/<span class="title">nav</span>&gt;</span></code></pre>
+				    <small>block--system-menu-block.html.twig</small>
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <h1>block.html.twig</h1>
+				    <p>theme hook suggestions</p>
+				    <img src="./Theme en Drupal 8_files/blockhooksuggestion.jpg">
+				  </section>
+
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <h2>{{ whatever|replace }}</h2>
+				    <pre><code data-trim="" contenteditable="" class="axapta">&lt;<span class="keyword">div</span> <span class="class"><span class="keyword">class</span>="<span class="title">block</span> <span class="title">blockmore</span> <span class="title">blockmorecauseofdrupal</span>"&gt;...&lt;/<span class="title">div</span>&gt;
+				      {</span>{ attributes.<span class="class"><span class="keyword">class</span> |<span class="title">replace</span>( {</span><span class="string">'block'</span>: <span class="string">''</span> }) }}</code><div class="”block-whatever”"><code data-trim="" contenteditable=""></code></div></pre>
+				    <small>block.html.</small>
+
+				    <pre><code data-trim="" contenteditable="" class="handlebars"><span class="tag">&lt;<span class="title">nav</span> <span class="attribute">class</span>=<span class="value">"<span class="expression">{{ <span class="variable">attributes.class</span> }}</span>"</span> <span class="attribute">role</span>=<span class="value">"<span class="expression">{{ <span class="variable">attributes.role</span>}}</span>"</span>&gt;</span>
+				        <span class="expression">{{ <span class="variable">title</span>_<span class="variable">prefix</span> }}</span>
+				        {% if label %}
+				          <span class="tag">&lt;<span class="title">h2{{</span> <span class="attribute">title_attributes</span> }}&gt;</span><span class="expression">{{ <span class="variable">label</span> }}</span><span class="tag">&lt;/<span class="title">h2</span>&gt;</span>
+				        {% endif %}
+				        <span class="expression">{{ <span class="variable">title</span>_<span class="variable">suffix</span> }}</span>
+
+				        <span class="expression">{{ <span class="variable">content</span> }}</span>
+				      <span class="tag">&lt;/<span class="title">nav</span>&gt;</span></code></pre>
+				    <small>block--system-menu-block.html.twig</small>
+
+				    <pre><code data-trim="" contenteditable="" class="r">&lt;nav class=<span class="string">"l-foobar mainmenu"</span> role=<span class="string">"navigation"</span>&gt;
+				        <span class="keyword">...</span> content <span class="keyword">...</span>
+				      &lt;/nav&gt;</code></pre>
+				    <small>  Done </small>
+				  </section>
+
+
+
+
+				  <section id="attributes" class="future" style="top: -20px; display: none;">
+				    <h1>{{attributes}}</h1>
+
+				    <pre><code contenteditable="" class="r">
+				    &lt;article {{attributes}}=<span class="string">""</span>&gt; <span class="keyword">...</span> &lt;/article&gt;
+				    </code></pre>
+
+				    <pre><code contenteditable="" class="handlebars">
+				    <span class="tag">&lt;<span class="title">article</span> <span class="attribute">class</span>=<span class="value">"<span class="expression">{{<span class="variable">attributes.class</span>}}</span>"</span> <span class="expression">{{<span class="variable">attributes</span>}}</span>=<span class="value">""</span>&gt;</span>
+				      ...
+				    <span class="tag">&lt;/<span class="title">article</span>&gt;</span>
+				    </code> </pre>
+
+				    <pre><code contenteditable="" class="handlebars">
+				      <span class="tag">&lt;<span class="title">article</span> <span class="attribute">class</span>=<span class="value">"<span class="expression">{{ <span class="variable">attributes.class</span> }}</span>"</span> <span class="attribute">role</span>=<span class="value">"<span class="expression">{{ <span class="variable">attributes.role</span> }}</span>"</span> <span class="expression">{{<span class="variable">attributes</span>}}</span>=<span class="value">""</span>&gt;</span>
+				      ....
+				      <span class="tag">&lt;/<span class="title">article</span>&gt;</span>
+				    </code> </pre>
+
+				  </section>
+
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <h2>add .foo</h2>
+				    <pre><code contenteditable="" class="http">
+
+<span class="handlebars">				      <span class="tag">&lt;<span class="title">article</span> <span class="attribute">class</span>=<span class="value">"foo <span class="expression">{{ <span class="variable">attributes.class</span>}}</span>"</span> <span class="expression">{{<span class="variable">attributes</span>}}</span>=<span class="value">""</span>&gt;</span>
+				        foo
+				      <span class="tag">&lt;/<span class="title">article</span>&gt;</span>
+
+				    </span></code></pre>
+				    <small>.twig</small>
+
+				    <pre><code contenteditable="" class="actionscript">
+				      &lt;article <span class="class"><span class="keyword">class</span>="<span class="title">foo</span> <span class="title">field</span>-<span class="title">foo</span>" <span class="title">role</span>="<span class="title">something</span>"&gt;
+				        <span class="title">foo</span>
+				      &lt;/<span class="title">article</span>&gt;
+				    </span></code></pre>
+				    <small>drupal</small>
+
+				  </section>
+
+
+				  <section id="terms" class="future" style="top: -20px; display: none;">
+				    <h2>ejemplo con Términos</h2>
+				    <img src="./Theme en Drupal 8_files/terms.png">
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <h2>el Marcado deseado</h2>
+				    <small>HTML</small>
+				    <pre><code contenteditable="" class="http">
+
+<span class="actionscript">				      &lt;div <span class="class"><span class="keyword">class</span>="<span class="title">tags</span>"&gt;
+				        &lt;<span class="title">span</span>&gt;3 <span class="title">tags</span>:&lt;/<span class="title">span</span>&gt;
+
+				        &lt;<span class="title">a</span> <span class="title">href</span>="#" <span class="title">class</span>="<span class="title">odd</span>"&gt;<span class="title">foo</span>&lt;/<span class="title">a</span>&gt;,
+				        &lt;<span class="title">a</span> <span class="title">href</span>="#" <span class="title">class</span>="<span class="title">even</span> <span class="title">resaltado</span>"&gt;<span class="title">bar</span>&lt;/<span class="title">a</span>&gt;,
+				        &lt;<span class="title">a</span> <span class="title">href</span>="#" <span class="title">class</span>="<span class="title">odd</span>"&gt;<span class="title">baz</span>&lt;/<span class="title">a</span>&gt;.
+
+				      &lt;/<span class="title">div</span>&gt;
+				    </span></span></code></pre>
+				      <small>CSS</small>
+
+				      <pre><code contenteditable="" class="css">
+				      <span class="class">.resaltado</span><span class="rules">{
+				        <span class="rule"><span class="attribute">color</span>:<span class="value"> green</span></span>;
+				        <span class="rule"><span class="attribute">font-style</span>:<span class="value">italic</span></span>;
+				      <span class="rule">}</span></span>
+				      </code></pre>
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <h2>node</h2>
+				    <pre><code contenteditable="" class="handlebars">
+				        <span class="tag">&lt;<span class="title">article</span> <span class="attribute">class</span>=<span class="value">"..."</span>&gt;</span>
+				        ....
+				        <span class="expression">{{ <span class="variable">content.field</span>_<span class="variable">tags</span>}}</span>
+
+				        <span class="expression">{{ <span class="variable">content</span>|<span class="variable">without</span>('<span class="variable">field</span>_<span class="variable">tags</span>') }}</span>
+				        <span class="tag">&lt;/<span class="title">article</span>&gt;</span>
+				      </code></pre>
+				      <small>node.html.twig</small>
+				  </section>
+
+				  <section id="test" class="future" style="top: -20px; display: none;">
+				    <h2>{{ <span class="pink">content</span>|without(<span class="orange">field-name</span>) }}</h2>
+				    <br><br>
+				    <h2>{{ fieldname }}</h2>
+				  </section>
+
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <pre><code contenteditable="" class="django">
+				    <span class="template_comment">{# Start the loop #}</span>
+				    <span class="template_tag">{% <span class="keyword">for</span> delta, item <span class="keyword">in</span> items %}</span>
+
+				      <span class="template_comment">{# create a class var #}</span>
+				      <span class="template_tag">{% set class %}</span>
+				        <span class="template_comment">{# odd even #}</span>
+				        <span class="variable">{{- cycle(["even", "odd"], delta) }}</span>
+				        <span class="template_comment">{# count-x #}</span>
+				        count-<span class="variable">{{ loop.index -}}</span>"
+				      <span class="template_tag">{% endset %}</span>
+
+				      <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"<span class="variable">{{class}}</span>"</span>&gt;</span><span class="variable">{{item}}</span><span class="tag">&lt;/<span class="title">a</span>&gt;</span>,
+
+				    <span class="template_comment">{# end the loop #}</span>
+				    <span class="template_tag">{% <span class="keyword">endfor</span> %}</span>
+				    </code></pre>
+				    <small>field--field-tags.html.twig</small>
+
+				    <pre><code contenteditable="" class="actionscript">
+				       &lt;a href=<span class="string">"#"</span> <span class="class"><span class="keyword">class</span>="<span class="title">odd</span> <span class="title">count</span>-1"&gt;<span class="title">Iturraspe</span>&lt;/<span class="title">a</span>&gt;,
+				       &lt;<span class="title">a</span> <span class="title">href</span>="#" <span class="title">class</span>="<span class="title">even</span> <span class="title">count</span>-2"&gt;<span class="title">Goikoetxea</span>&lt;/<span class="title">a</span>&gt;,
+				       &lt;<span class="title">a</span> <span class="title">href</span>="#" <span class="title">class</span>="<span class="title">odd</span> <span class="title">count</span>-3"&gt;<span class="title">Aldaiturriaga</span>&lt;/<span class="title">a</span>&gt;,
+				    </span></code></pre>
+				    <small>drupal8</small>
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <h2>tags vs tag</h2>
+				    <pre><code contenteditable="" class="django">
+				      <span class="template_comment">{# first loop #}</span>
+				      <span class="template_tag">{% <span class="keyword">if</span> loop.first %}</span>
+				        <span class="template_comment">{# set tags / tag #}</span>
+				        <span class="tag">&lt;<span class="title">span</span>&gt;</span>
+				        <span class="template_tag">{% <span class="keyword">if</span> loop.length &gt; 1 %}</span>
+				          <span class="variable">{{ loop.length }}</span>
+				          tags:
+				          <span class="template_tag">{% <span class="keyword">else</span> %}</span>
+				          tag:
+				        <span class="template_tag">{% <span class="keyword">endif</span> %}</span>
+				        <span class="tag">&lt;<span class="title">span</span>&gt;</span>
+				      ...
+				    <span class="tag">&lt;/<span class="title">span</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span></code></pre>
+				    <small>field--field-tags.html.twig</small>
+
+				    <pre><code contenteditable="" class="apache">
+				      <span class="tag">&lt;span&gt;</span>3 tags:<span class="tag">&lt;/span&gt;</span>
+				    </code></pre>
+
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <h2>add a class on 2 tag</h2>
+				    <pre><code contenteditable="" class="r">
+				      {% <span class="keyword">if</span> loop.first %}
+				        <span class="keyword">...</span>
+				      {% elseif loop.index == <span class="number">2</span> %}
+				      &lt;a href=<span class="string">"#"</span> class=<span class="string">"resaltado {{class}}"</span>&gt;{{item}}&lt;/a&gt;,
+
+				      <span class="keyword">...</span>
+
+				    {<span class="comment"># end the loop #}</span>
+				    {% endfor %}
+				    </code></pre>
+				    <small>field--field-tags.html.twig</small>
+
+				    <pre><code contenteditable="" class="actionscript">
+				       &lt;a href=<span class="string">"#"</span> <span class="class"><span class="keyword">class</span>="<span class="title">odd</span> <span class="title">count</span>-1"&gt;<span class="title">Iturraspe</span>&lt;/<span class="title">a</span>&gt;
+				       &lt;<span class="title">a</span> <span class="title">href</span>="#" <span class="title">class</span>="<span class="title">resaltado</span> <span class="title">even</span> <span class="title">count</span>-2"&gt;<span class="title">Goikoetxea</span>&lt;/<span class="title">a</span>&gt;
+				       &lt;<span class="title">a</span> <span class="title">href</span>="#" <span class="title">class</span>="<span class="title">odd</span> <span class="title">count</span>-3"&gt;<span class="title">Aldaiturriaga</span>&lt;/<span class="title">a</span>&gt;
+				    </span></code></pre>
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+
+				    <pre><code contenteditable="" class="django">
+				      <span class="template_tag">{% <span class="keyword">if</span> loop.first %}</span>
+				        <span class="tag">&lt;<span class="title">span</span>&gt;</span>
+				        <span class="template_tag">{% <span class="keyword">if</span> loop.length &gt; 1 %}</span>
+				          <span class="variable">{{ loop.length }}</span>  tags:
+				        <span class="template_tag">{% <span class="keyword">else</span> %}</span>
+				        tag:
+				        <span class="template_tag">{% <span class="keyword">endif</span> %}</span>
+				        <span class="tag">&lt;<span class="title">span</span>&gt;</span>
+
+				        <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"<span class="variable">{{class}}</span>"</span>&gt;</span><span class="variable">{{item}}</span><span class="tag">&lt;/<span class="title">a</span>&gt;</span>,
+				      <span class="template_tag">{% elseif loop.index == 2 %}</span>
+				        <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"resaltado <span class="variable">{{class}}</span>"</span>&gt;</span><span class="variable">{{item}}</span><span class="tag">&lt;/<span class="title">a</span>&gt;</span>,
+				      <span class="template_tag">{% elseif loop.last %}</span>
+				        <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"<span class="variable">{{class}}</span>"</span>&gt;</span><span class="variable">{{item}}</span><span class="tag">&lt;/<span class="title">a</span>&gt;</span>.
+				      <span class="template_tag">{% <span class="keyword">else</span> %}</span>
+				        <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"<span class="variable">{{class}}</span>"</span>&gt;</span><span class="variable">{{item}}</span><span class="tag">&lt;/<span class="title">a</span>&gt;</span>,
+				      <span class="template_tag">{% <span class="keyword">endif</span> %}</span>
+				    <span class="tag">&lt;/<span class="title">span</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span></code></pre>
+				    <small>field--field-tags.html.twig</small>
+
+				    <pre><code contenteditable="" class="actionscript">
+				        <span class="number">3</span> tags:
+				       &lt;a href=<span class="string">"#"</span> <span class="class"><span class="keyword">class</span>="<span class="title">odd</span> <span class="title">count</span>-1"&gt;<span class="title">Iturraspe</span>&lt;/<span class="title">a</span>&gt;,
+				       &lt;<span class="title">a</span> <span class="title">href</span>="#" <span class="title">class</span>="<span class="title">resaltado</span> <span class="title">even</span> <span class="title">count</span>-2"&gt;<span class="title">Goikoetxea</span>&lt;/<span class="title">a</span>&gt;,
+				       &lt;<span class="title">a</span> <span class="title">href</span>="#" <span class="title">class</span>="<span class="title">odd</span> <span class="title">count</span>-3"&gt;<span class="title">Aldaiturriaga</span>&lt;/<span class="title">a</span>&gt;.
+				    </span></code></pre>
+
+				  </section>
+
+
+				  <section id="twigblock" class="future" style="top: -20px; display: none;">
+				    <h1>TWIG BLOCK</h1>
+
+				    <pre><code contenteditable="" class="django">
+				      <span class="template_tag">{% <span class="keyword">block</span> foobar %}</span>
+				        <span class="template_comment">{# puedo ser otra cosa #}</span>
+				      <span class="template_tag">{% <span class="keyword">endblock</span> %}</span>
+				    </code></pre>
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <img src="./Theme en Drupal 8_files/twigblock.png">
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <img src="./Theme en Drupal 8_files/twigblock-debug.png">
+				  </section>
+
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <pre><code contenteditable="" class="applescript">
+				      {% block headerblock %}
+				        Change <span class="keyword">me</span> <span class="keyword">if</span> Im <span class="function_start"><span class="keyword">on</span> <span class="title">the</span></span> frontpage
+				      {% endblock %}
+				    </code></pre>
+				    <small>page.twig.html</small>
+
+				    <pre><code contenteditable="" class="django">
+				      <span class="template_tag">{% <span class="keyword">extends</span> "themes/drupal8theme/templates/page.html.twig" %}</span>
+				      <span class="template_tag">{% <span class="keyword">block</span> headerblock %}</span>
+				        Im on the frontpage :)
+				      <span class="template_tag">{% <span class="keyword">endblock</span> %}</span>
+				    </code></pre>
+				    <small>page--front.html.twig</small>
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <img src="./Theme en Drupal 8_files/twigblock-page.png">
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				    <img src="./Theme en Drupal 8_files/twigblock-frontpage.png">
+				  </section>
+
+
+				</section>
+
+				<!-- translate -->
+				<section id="translate" hidden="" class="stack future" style="top: 0px; display: block;">
+				  <section style="top: -131px; display: block;">
+				    <h1>Traducción</h1>
+				  </section>
+
+				  <section class="future" style="top: -151px; display: none;">
+				  	<h2>Filtro</h2>
+
+				    <pre><code contenteditable="" class="handlebars">
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"<span class="expression">{{ <span class="variable">url</span>('&lt;<span class="variable">front</span>&gt;') }}</span>"</span> <span class="attribute">title</span>=<span class="value">"<span class="expression">{{ '<span class="variable">Home</span>'|<span class="variable">t</span> }}</span>"</span> <span class="attribute">rel</span>=<span class="value">"home"</span> <span class="attribute">class</span>=<span class="value">"site-logo"</span>&gt;</span><span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+				    </code></pre>
+
+
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+			  		<h2>función t() como filtro con parámetro</h2>
+
+				    <pre><code contenteditable="" class="handlebars">
+				    <span class="expression">{{ '<span class="variable">last</span> <span class="variable">checked</span>: @<span class="variable">time</span> <span class="variable">ago</span>'| <span class="variable">t</span>({'@<span class="variable">time</span>':<span class="variable">time</span>}) }}</span>
+				    </code></pre>
+
+
+				  </section>
+
+
+				  <section class="future" style="top: -20px; display: none;">
+				  <h2>Definición de texto traducible</h2>
+				    <pre><code contenteditable="" class="django">
+				      <span class="template_tag">{% <span class="keyword">trans</span> %}</span>
+				        Hi im a euskaldun and i speak funny: ongi etorri
+				      <span class="template_tag">{% endtrans %}</span>
+				    </code></pre>
+
+				  </section>
+
+				  <section class="future" style="top: -20px; display: none;">
+				  	<h2>Manejo de plurales</h2>
+				    <pre><code contenteditable="" class="django">
+				      <span class="template_tag">{% <span class="keyword">trans</span> %}</span>
+				        Kaixo euskaldun.
+				      <span class="template_tag">{% <span class="keyword">plural</span> count %}</span>
+				        Kaixo <span class="variable">{{ count }}</span> euskaldunes.
+				      <span class="template_tag">{% endtrans %}</span>
+				    </code></pre>
+
+				  </section>
+
+
+				</section>
+
+				<!-- translate -->
+
+				<section hidden="" class="stack future" style="top: 0px; display: none;">
+					<section style="top: -350px; display: none;">
+						<h2>Nuevo tema en core</h2>
+						<img src="./Theme en Drupal 8_files/classy0.png" class="classy_image">
+					</section>
+					<section class="future" style="top: -350px; display: none;">
+						<h2>Con lo justo y necesario, nada más</h2>
+						<img src="./Theme en Drupal 8_files/classy.png" class="classy_image">
+					</section>
+					<section class="future" style="top: -252.5px; display: none;">
+						<h2>Crear nuevo tema basado en sassy (.info.yml)</h2>
+						<pre><code contenteditable="" class="actionscript">
+							name: Awesome Theme
+							description: <span class="string">'An awesome D8 theme.'</span>
+							base theme: classy
+							<span class="package"><span class="keyword">package</span>: <span class="title">Custom</span>
+							<span class="title">type</span>: <span class="title">theme</span>
+							<span class="title">version</span>: 1.0
+							<span class="title">core</span>: 8.<span class="title">x</span>
+						</span></code></pre>
+					</section>
+				</section>
+
+				<section hidden="" class="future" style="top: -173.5px; display: none;">
+					<h1>Recursos</h1>
+					<ul>
+						<li><a href="https://www.drupal.org/theme-guide/8">Theme Guide in Drupal 8</a></li>
+						<li><a href="https://github.com/sqndr/d8-theming-guide">Theme guide by Sqndr</a></li>
+					</ul>
+				</section>
+
+				<section hidden="" class="future" style="top: -350px; display: block;">
+					<h1>Eskerrik asko!</h1>
+					<h2>Preguntas?</h2>
+					<h3>Pako Garcia</h3>
+					<p>
+						pako.garcia@ymbra.com<br>
+						<small><a href="http://ymbra.com/">Vegan Themer at <img src="./Theme en Drupal 8_files/logo-ymbra.png" class="logo-ymbra"></a><br> <i class="fa fa-twitter"></i><a href="http://twitter.com/pakmanlh">@pakmanlh</a> in the internets</small>
+					</p>
+					<p>#DdayBilbao2014</p>
+					<small>many thanks to mortendk for the inspiration </small>
+				</section>
+
+			</div>
+
+		<div class="backgrounds"><div class="slide-background past"></div><div class="slide-background past"><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background present" data-background-hash="images/applause.gifnullnullnullnullnullslide" data-background-transition="slide" style="background-image: url(&quot;images/applause.gif&quot;);"></div></div><div class="slide-background present"><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background past"></div><div class="slide-background present"></div><div class="slide-background future" data-background-hash="#000nullnullnullnullnullnull" style="background: rgb(0, 0, 0);"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div></div><div class="slide-background future"><div class="slide-background present"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div></div><div class="slide-background future"><div class="slide-background present"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div></div><div class="slide-background future"><div class="slide-background present"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div></div><div class="slide-background future"><div class="slide-background present"></div><div class="slide-background future"></div><div class="slide-background future"></div></div><div class="slide-background future"></div><div class="slide-background future"></div></div><div class="progress" style="display: block;"><span style="width: 455.333px;"></span></div><aside class="controls" style="display: block;"><div class="navigate-left enabled"></div><div class="navigate-right enabled"></div><div class="navigate-up enabled"></div><div class="navigate-down enabled"></div></aside><div class="slide-number"></div><div class="state-background"></div><div class="pause-overlay"></div></div>
+
+		<script src="./Theme en Drupal 8_files/head.min.js"></script>
+		<script src="./Theme en Drupal 8_files/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script><script type="text/javascript" src="./Theme en Drupal 8_files/highlight.js"></script><script type="text/javascript" src="./Theme en Drupal 8_files/zoom.js"></script><script type="text/javascript" src="./Theme en Drupal 8_files/notes.js"></script>
+
+	
+
+</body></html>
