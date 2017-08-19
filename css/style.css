@@ -132,7 +132,8 @@ html, body {
   font-size: 5.875rem;
   font-weight: 200;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  color: #455A64;
+  color: white;
+  font-weight: bold;
   line-height: 1;
   letter-spacing: 6px;
   margin: 0;
@@ -159,12 +160,10 @@ html, body {
   background-size: cover; }
 
 .pt-page-2 {
-  background: white; }
+  background: #137CC1; }
 
 .pt-page-3 {
-  background: url(../images/cover.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background: #137CC1; }
 
 .pt-page-4 {
   background: url(../images/Banner.png);
@@ -177,7 +176,7 @@ html, body {
   background-size: cover; }
 
 .pt-page-6 {
-  background: #f68dbb; }
+  background: #137CC1; }
 
 /* Triggers (menu and button) */
 .pt-triggers {
@@ -2155,7 +2154,7 @@ html, body {
   #drupal_theme_structure p, #drupal_theme_structure2 p,
   #drupal_theme_regiones p, #drupal_theme_regiones2 p {
     margin-top: -20px;
-    border-bottom: 2px solid #607D8B;
+    border-bottom: 2px solid white;
     width: 80%;
     margin-left: 10%; }
 
@@ -2171,10 +2170,10 @@ html, body {
   .drupal_container .drupal_menu_list li {
     list-style: none; }
     .drupal_container .drupal_menu_list li a, .drupal_container .drupal_menu_list li i {
-      color: #607D8B;
+      color: white;
       font-size: 30px;
       padding-right: 20px;
-      font-weight: 300; }
+      font-weight: bold; }
       .drupal_container .drupal_menu_list li a:hover, .drupal_container .drupal_menu_list li i:hover {
         text-decoration: none; }
 
@@ -2187,8 +2186,7 @@ html, body {
 ul.theme_structure li {
   list-style: none; }
   ul.theme_structure li a {
-    color: #C2185B;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+    color: white;
     display: flex;
     font-weight: bold; }
     ul.theme_structure li a:hover {

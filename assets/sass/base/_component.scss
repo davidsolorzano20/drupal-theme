@@ -49,7 +49,8 @@ html, body { height: 100%; }
 	font-size: 5.875rem;
 	font-weight: 200;
 	font-family: "Roboto", Helvetica, Arial, sans-serif;
-	color: #455A64;
+	color: white;
+	font-weight: bold;
 	line-height: 1;
 	letter-spacing: 6px;
 	margin: 0;
@@ -80,13 +81,11 @@ html, body { height: 100%; }
 }
 
 .pt-page-2 {
-	background: white;
+	background: #137CC1;
 }
 
 .pt-page-3 {
-	background: url(../images/cover.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: #137CC1;
 }
 
 .pt-page-4 {
@@ -102,7 +101,7 @@ html, body { height: 100%; }
 }
 
 .pt-page-6 {
-	background: #f68dbb;
+	background: #137CC1;
 }
 
 /* Triggers (menu and button) */
